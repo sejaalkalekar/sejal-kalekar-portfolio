@@ -49,14 +49,39 @@ Launch
 Simply open index.html in your browser.
 
 <h2>🤝 Connect With Me</h2>
+## 🤝 Connect With Me
 
-💼 LinkedIn: https://www.linkedin.com/in/sejaalkalekar/
+<p>
+  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="20" height="20" align="center" />
+  <strong> LinkedIn:</strong>
+  <a href="https://www.linkedin.com/in/sejaalkalekar/">
+    https://www.linkedin.com/in/sejaalkalekar/
+  </a>
+</p>
 
-💻 GitHub: https://github.com/sejaalkalekar
+<p>
+  <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="20" height="20" align="center" />
+  <strong> GitHub:</strong>
+  <a href=" https://github.com/sejaalkalekar">
+    https://github.com/sejaalkalekar
+  </a>
+</p>
 
-📧 Email: sejaalkalekar@gmail.com
+<p>
+  <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="20" height="20" align="center" />
+  <strong> Email:</strong>
+  <a href="mailto:sejaalkalekar@gmail.com">
+    sejaalkalekar@gmail.com
+  </a>
+</p>
 
-🐦 X (Twitter): https://x.com/sejaalkalekar
+<p>
+  <img src="https://cdn.simpleicons.org/x" alt="X" width="20" height="20" align="center" />
+  <strong> X (Twitter):</strong>
+  <a href="https://x.com/sejaalkalekar">
+    https://x.com/sejaalkalekar
+  </a>
+</p>
 
 <h2>⭐ Support</h2>
 
