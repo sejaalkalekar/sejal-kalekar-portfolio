@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sejal Kalekar — Cloud &amp; Linux Engineer</title>
+<meta name="description" content="Sejal Kalekar — Linux &amp; AWS Cloud Engineer. EC2, VPC, IAM, S3, Shell Scripting, DevOps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__brand">Sejal Kalekar<span class="nav__brand-dot"></span></a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav__links" id="navLinks">    
+    <li><a href="#about">About</a></li>    
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>    
+    <li><a href="#experience">Experience</a></li>    
+    <li><a href="#education">Education</a></li>    
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact" class="nav__cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero__bg" id="heroBg" aria-hidden="true"></div>
+  <div class="hero__grid"></div>
+  <canvas id="network" class="hero__network" aria-hidden="true"></canvas>
+  <div class="hero__content container">
+    <div class="hero__text">
+      <p class="eyebrow fade-in">$ whoami</p>
+      <h1 class="hero__name fade-in">Hi, I'm <span class="hero__name-gradient">Sejal Kalekar</span></h1>
+      <p class="hero__role fade-in">
+        <span class="hero__typewriter" id="typewriter"></span><span class="hero__cursor">|</span>
+      </p>
+      <p class="hero__tagline fade-in">
+        Building and troubleshooting cloud infrastructure on AWS
+        from VPCs and EC2 to IAM and automated deployments.
+      </p>
+      <div class="hero__buttons fade-in">
+        <a href="assets/Sejal Kalekar.pdf" download class="btn btn--primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+          Download Resume
+        </a>
+        <a href="#projects" class="btn btn--ghost">View Projects</a>
+        <a href="https://github.com/sejaalkalekar" target="_blank" rel="noopener" class="btn btn--icon" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.02c-3.34.72-4.04-1.6-4.04-1.6-.55-1.38-1.34-1.76-1.34-1.76-1.1-.74.08-.72.08-.72 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.34-5.46-5.96 0-1.32.46-2.4 1.24-3.24-.12-.3-.54-1.52.12-3.18 0 0 1.02-.32 3.32 1.24a11.4 11.4 0 0 1 6.04 0c2.3-1.56 3.32-1.24 3.32-1.24.66 1.66.24 2.88.12 3.18.78.84 1.24 1.92 1.24 3.24 0 4.64-2.8 5.66-5.48 5.96.44.38.82 1.12.82 2.26v3.34c0 .32.22.7.82.58A12 12 0 0 0 12 .3z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sejaalkalekar/" target="_blank" rel="noopener" class="btn btn--icon" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero__photo fade-in">
+      <!-- <div class="hero__photo-ring"></div> -->
+      <div class="hero__orbit hero__orbit--1" aria-hidden="true"><span class="orbit-chip">AWS</span></div>
+      <div class="hero__orbit hero__orbit--2" aria-hidden="true"><span class="orbit-chip">Docker</span></div>
+      <div class="hero__orbit hero__orbit--3" aria-hidden="true"><span class="orbit-chip">Linux</span></div> 
+      <img src="assets/quality.png" alt="Sejal Kalekar" class="hero__photo-img">
+      <!-- <div class="hero__badge">
+        <span class="hero__badge-dot"></span> Open to opportunities
+      </div> -->
+    </div>
+  </div>
+  <a href="#skills" class="hero__scroll" aria-label="Scroll down">
+    <span></span>
+  </a>
+</header>
+
+<main>
+
+<!-- ============ ABOUT ME ============ -->
+<section class="section" id="about">
+  <div class="container about__layout">
+    <div class="reveal">
+      <p class="section__eyebrow">$ cat about.md</p>
+      <h2 class="section__title">About Me</h2>
+      <p class="about__bio">
+        I'm a Linux &amp; AWS Cloud Engineer who likes systems that stay up.
+        My background is in React development, but hands-on work with EC2,
+        IAM, VPC and S3 pulled me toward cloud infrastructure - provisioning it,
+        securing it, and automating the boring parts so it doesn't need me
+        at 2am. I spend most days in a terminal, and I'm currently deepening
+        my AWS and DevOps skills toward the Solutions Architect certification.
+      </p>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__num" data-count="3" data-suffix="+">0</span>
+          <span class="stat__label">Years experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="10" data-suffix="+">0</span>
+          <span class="stat__label">AWS services used</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="10" data-suffix="+">0</span>
+          <span class="stat__label">Projects</span>
+        </div>
+      </div>
+    </div>
+    <div class="about__facts reveal">
+      <div class="fact"><span class="fact__label">Experience</span><span class="fact__value">3+ Years in software &amp; Cloud Computing</span></div>
+      <div class="fact"><span class="fact__label">Education</span><span class="fact__value">BE Computer Engineering</span></div>
+      <div class="fact"><span class="fact__label">Language</span><span class="fact__value">English, Hindi, Marathi</span></div>
+      <div class="fact"><span class="fact__label">Career Goal</span><span class="fact__value">AWS Certified Cloud/DevOps Engineer</span></div>
+      <div class="fact"><span class="fact__label">Location</span><span class="fact__value">Nashik, Maharashtra, India</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PROJECTS ============ -->
+<section class="section section--alt" id="projects">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ ls ~/projects</p>
+    <h2 class="section__title reveal">Featured Projects</h2>
+    <p class="section__lede reveal">Hands-on AWS builds, real infrastructure.</p>
+
+    <div class="projects__grid">
+
+      <article class="project-card tilt reveal">
+        <div class="project-card__diagram" aria-hidden="true">
+          <svg viewBox="0 0 400 220" class="arch-svg">
+            <rect x="10" y="10" width="380" height="200" rx="10" class="arch-vpc" />
+            <text x="24" y="30" class="arch-label">VPC</text>
+            <rect x="30" y="45" width="160" height="70" rx="8" class="arch-subnet-public" />
+            <text x="42" y="62" class="arch-label-sm">Public Subnet</text>
+            <circle cx="70" cy="90" r="14" class="arch-node arch-node--blue"/>
+            <text x="55" y="115" class="arch-label-xs">ALB</text>
+            <circle cx="140" cy="90" r="14" class="arch-node arch-node--blue"/>
+            <text x="120" y="115" class="arch-label-xs">EC2 (Web)</text>
+            <rect x="210" y="45" width="160" height="70" rx="8" class="arch-subnet-private" />
+            <text x="222" y="62" class="arch-label-sm">Private Subnet</text>
+            <circle cx="255" cy="90" r="14" class="arch-node arch-node--cyan"/>
+            <text x="235" y="115" class="arch-label-xs">EC2 (App)</text>
+            <circle cx="325" cy="90" r="14" class="arch-node arch-node--green"/>
+            <text x="305" y="115" class="arch-label-xs">RDS</text>
+            <rect x="30" y="140" width="160" height="55" rx="8" class="arch-subnet-public" />
+            <text x="42" y="157" class="arch-label-sm">S3 Bucket</text>
+            <text x="42" y="178" class="arch-label-xs">Backup &amp; Storage</text>
+            <line x1="70" y1="104" x2="70" y2="140" class="arch-line"/>
+            <line x1="140" y1="104" x2="255" y2="104" class="arch-line"/>
+            <line x1="255" y1="104" x2="325" y2="104" class="arch-line"/>
+          </svg>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__tag">Infrastructure</span>
+          <h3>AWS Three-Tier Infrastructure Deployment</h3>
+          <p>Secure three-tier architecture using public &amp; private subnets, an Internet Gateway, and Route Tables — with an ALB in front and RDS tucked away privately.</p>
+          <ul class="project-card__points">
+            <li>Configured Security Groups &amp; IAM for least-privilege access</li>
+            <li>Application Load Balancer for traffic distribution &amp; high availability</li>
+            <li>RDS in a private subnet, S3 for backup &amp; storage</li>
+            <li>Linux server deployment, monitoring &amp; troubleshooting</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>VPC</span><span>EC2</span><span>ALB</span><span>RDS</span><span>IAM</span><span>S3</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/sejaalkalekar" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card tilt reveal">
+        <div class="project-card__diagram" aria-hidden="true">
+          <svg viewBox="0 0 400 220" class="arch-svg">
+            <rect x="10" y="20" width="110" height="60" rx="8" class="arch-subnet-public"/>
+            <text x="22" y="42" class="arch-label-sm">Developer</text>
+            <text x="22" y="60" class="arch-label-xs">git push</text>
+            <rect x="150" y="20" width="110" height="60" rx="8" class="arch-subnet-private"/>
+            <text x="162" y="42" class="arch-label-sm">GitHub</text>
+            <text x="162" y="60" class="arch-label-xs">CI/CD Action</text>
+            <rect x="290" y="20" width="100" height="60" rx="8" class="arch-subnet-public"/>
+            <text x="300" y="42" class="arch-label-sm">EC2</text>
+            <text x="300" y="60" class="arch-label-xs">Amazon Linux</text>
+            <line x1="120" y1="50" x2="150" y2="50" class="arch-line"/>
+            <line x1="260" y1="50" x2="290" y2="50" class="arch-line"/>
+            <rect x="150" y="120" width="110" height="70" rx="8" class="arch-subnet-private"/>
+            <text x="162" y="142" class="arch-label-sm">Nginx</text>
+            <text x="162" y="160" class="arch-label-xs">Reverse Proxy</text>
+            <line x1="335" y1="80" x2="335" y2="105" class="arch-line"/>
+            <line x1="205" y1="105" x2="335" y2="105" class="arch-line"/>
+            <line x1="205" y1="105" x2="205" y2="120" class="arch-line"/>
+            <rect x="290" y="120" width="100" height="70" rx="8" class="arch-subnet-public"/>
+            <text x="300" y="142" class="arch-label-sm">React</text>
+            <text x="300" y="160" class="arch-label-xs">Production Build</text>
+            <line x1="260" y1="155" x2="290" y2="155" class="arch-line"/>
+          </svg>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__tag">CI/CD</span>
+          <h3>React Application Deployed on Cloud</h3>
+          <p>A React application deployed on AWS EC2 (Amazon Linux), served through Nginx, with a GitHub-based CI/CD pipeline for automated builds and deployment.</p>
+          <ul class="project-card__points">
+            <li>Configured Nginx for hosting the production build</li>
+            <li>GitHub Actions pipeline for automated build, test &amp; deploy</li>
+            <li>EC2 provisioning &amp; server-side debugging</li>
+          </ul>
+          <div class="project-card__tech">
+            <span>React.js</span><span>EC2</span><span>Nginx</span><span>GitHub Actions</span><span>CI/CD</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/sejaalkalekar" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--ghost reveal">
+        <div class="project-card__body project-card__body--center">
+          <span class="project-card__tag project-card__tag--muted">In Progress</span>
+          <h3>More builds, coming soon</h3>
+          <p>S3 static hosting, Terraform-managed infra, and CloudWatch monitoring dashboards are next up on the roadmap — track progress in the 90-day journey below.</p>
+          <div class="project-card__links">
+            <a href="https://github.com/sejaalkalekar?tab=repositories" target="_blank" rel="noopener">See all repos ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECHNICAL SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ cat skills.txt</p>
+    <h2 class="section__title reveal">Technical Skills</h2>
+    <div class="skills__grid">
+
+      <div class="skill-card skill-card--wide tilt reveal skill-card--top">
+        <div class="skill-card__head">
+          <span class="skill-card__icon">☁️</span>
+          <h3>Cloud (AWS)</h3>
+        </div>
+        <ul class="skill-card__tags">
+          <li>EC2</li><li>IAM</li><li>VPC</li><li>S3</li><li>RDS</li>
+          <li>Route 53</li><li>CloudWatch</li><li>Security Groups</li>
+          <li>Load Balancer (ALB)</li><li>Route Tables</li>
+        </ul>
+      </div>
+
+      <div class="skill-card tilt reveal skill-card--top">
+        <div class="skill-card__head">
+          <span class="skill-card__icon">🐧</span>
+          <h3>Linux Administration</h3>
+        </div>
+        <ul class="skill-card__tags">
+          <li>Amazon Linux</li><li>Ubuntu</li><li>User &amp; Group Mgmt</li>
+          <li>File Permissions / ACL</li><li>Shell Scripting</li><li>Cron Jobs</li>
+          <li>YUM / RPM / APT</li><li>LVM</li><li>Process Monitoring</li>
+        </ul>
+      </div>
+
+      <div class="skill-card tilt reveal skill-card--top">
+        <div class="skill-card__head">
+          <span class="skill-card__icon">🌐</span>
+          <h3>Networking</h3>
+        </div>
+        <ul class="skill-card__tags">
+          <li>TCP/IP</li><li>DNS</li><li>DHCP</li><li>VPN</li>
+          <li>Subnets</li><li>CIDR</li>
+        </ul>
+      </div>
+
+      <div class="skill-card tilt reveal skill-card--top">
+        <div class="skill-card__head">
+          <span class="skill-card__icon">⚙️</span>
+          <h3>DevOps &amp; Version Control</h3>
+        </div>
+        <ul class="skill-card__tags">
+          <li>Git</li><li>GitHub</li><li>GitHub Actions</li>
+          <li>CI/CD</li><li>Terraform <span class="tag-note">learning</span></li>
+          <li>Jenkins <span class="tag-note">learning</span></li>
+        </ul>
+      </div>
+
+      <div class="skill-card tilt reveal skill-card--top">
+        <div class="skill-card__head">
+          <span class="skill-card__icon">💻</span>
+          <h3>Programming &amp; Web</h3>
+        </div>
+        <ul class="skill-card__tags">
+          <li>JavaScript</li><li>React.js</li><li>HTML5</li><li>CSS3</li>
+          <li>Bootstrap</li><li>Tailwind CSS</li>
+        </ul>
+      </div>
+
+      <div class="skill-card tilt reveal skill-card--top">
+        <div class="skill-card__head">
+          <span class="skill-card__icon">🗄️</span>
+          <h3>Database &amp; Tools</h3>
+        </div>
+        <ul class="skill-card__tags">
+          <li>MySQL</li><li>VS Code</li><li>Postman</li>
+          <li>Git</li><li>Linux Terminal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section--alt" id="experience">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ history</p>
+    <h2 class="section__title reveal">Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__card">
+          <span class="timeline__date">Oct 2025 — May 2026</span>
+          <h3>Associate Software Engineer — Cloud &amp; Technical Support</h3>
+          <p class="timeline__company">Kavya Infoweb Private Limited · Nagpur, Maharashtra</p>
+          <ul>
+            <li>Managed users, groups &amp; file permissions across Linux servers</li>
+            <li>Automated routine admin tasks with shell scripts &amp; Crontab</li>
+            <li>Provisioned &amp; configured AWS EC2 instances for deployment and testing</li>
+            <li>Handled package installation (YUM, RPM, APT), backups &amp; restores</li>
+          </ul>
+          <div class="timeline__tech"><span>Linux</span><span>AWS</span><span>EC2</span><span>Cron</span></div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__card">
+          <span class="timeline__date">Jun 2023 — Oct 2025</span>
+          <h3>React Software Developer (with Cloud Exposure)</h3>
+          <p class="timeline__company">SSDIT Solutions · Nashik, Maharashtra</p>
+          <ul>
+            <li>Deployed &amp; maintained web apps on AWS EC2 and S3 with CI/CD</li>
+            <li>Administered Linux servers for deployment, debugging &amp; tuning</li>
+            <li>Built responsive UI with React.js, JavaScript, HTML5, CSS3, Tailwind</li>
+          </ul>
+          <div class="timeline__tech"><span>React</span><span>AWS</span><span>EC2</span><span>S3</span><span>CI/CD</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section" id="education">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ cat education.log</p>
+    <h2 class="section__title reveal">Education</h2>
+
+    <div class="edu-card reveal">
+      <div class="edu-card__glow" aria-hidden="true"></div>
+      <div class="edu-card__icon">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 10L12 5 2 10l10 5 10-5z"/>
+          <path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/>
+        </svg>
+      </div>
+      <div class="edu-card__body">
+        <span class="edu-card__badge">2019 — 2022</span>
+        <h3>BE, Computer Science Engineering</h3>
+        <p class="edu-card__uni">Savitribai Phule Pune University · Nashik, Maharashtra</p>
+        <div class="edu-card__stats">
+          <div class="edu-card__stat">
+            <span class="edu-card__stat-num">8.96</span>
+            <span class="edu-card__stat-label">CGPA / 10</span>
+          </div>
+          <div class="edu-card__stat">
+            <span class="edu-card__stat-num">4 yrs</span>
+            <span class="edu-card__stat-label">Full-time program</span>
+          </div>
+          <div class="edu-card__stat">
+            <span class="edu-card__stat-num">CSE</span>
+            <span class="edu-card__stat-label">Core discipline</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section section--alt" id="certifications">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ cat certifications.json</p>
+    <h2 class="section__title reveal">Certifications</h2>
+    <div class="certs__grid">
+      <div class="cert-card tilt reveal">
+        <div class="cert-card__icon">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 5 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6L3 8l6-1z"/></svg>
+        </div>
+        <div class="cert-card__body">
+          <span class="cert-card__status cert-card__status--progress">In Progress</span>
+          <h3>AWS Certified Solutions Architect — Associate</h3>
+          <p>Expected 2026</p>
+        </div>
+      </div>
+      <div class="cert-card cert-card--ghost reveal">
+        <div class="cert-card__icon"><span>+</span></div>
+        <div class="cert-card__body">
+          <span class="cert-card__status">Planned</span>
+          <h3>More certifications on the way</h3>
+          <p>Terraform &amp; Kubernetes fundamentals next.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOGS (FUTURE) ============ -->
+<section class="section" id="blogs">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ cat blog/index.md</p>
+    <h2 class="section__title reveal">Blogs &amp; Articles</h2>
+    <div class="blog__empty reveal">
+      <p>Write-ups from the 90-day journey are on the way — first post coming soon.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESUME ============ -->
+<section class="section section--alt" id="resume">
+  <div class="container resume__box reveal">
+    <div>
+      <p class="section__eyebrow">$ file resume.pdf</p>
+      <h2 class="section__title">Resume</h2>
+      <p class="section__lede">The full story - experience, skills, education, and projects in one page.</p>
+    </div>
+    <div class="resume__actions">
+      <a href="assets/Sejal Kalekar.pdf" download class="btn btn--primary">Download Resume</a>
+      <a href="assets/Sejal Kalekar.pdf" target="_blank" rel="noopener" class="btn btn--ghost">View Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="section__eyebrow reveal">$ ping sejal</p>
+    <h2 class="section__title reveal">Contact</h2>
+    <p class="section__lede reveal">Reach out - I reply fast.</p>
+    <div class="contact__grid">
+      <a href="mailto:sejaalkalekar@gmail.com" class="contact-card reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+        <div><span>Email</span><p>sejaalkalekar@gmail.com</p></div>
+      </a>
+      <a href="https://www.linkedin.com/in/sejaalkalekar/" target="_blank" rel="noopener" class="contact-card reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+        <div><span>LinkedIn</span><p>/in/sejaalkalekar</p></div>
+      </a>
+      <a href="https://github.com/sejaalkalekar" target="_blank" rel="noopener" class="contact-card reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.02c-3.34.72-4.04-1.6-4.04-1.6-.55-1.38-1.34-1.76-1.34-1.76-1.1-.74.08-.72.08-.72 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.34-5.46-5.96 0-1.32.46-2.4 1.24-3.24-.12-.3-.54-1.52.12-3.18 0 0 1.02-.32 3.32 1.24a11.4 11.4 0 0 1 6.04 0c2.3-1.56 3.32-1.24 3.32-1.24.66 1.66.24 2.88.12 3.18.78.84 1.24 1.92 1.24 3.24 0 4.64-2.8 5.66-5.48 5.96.44.38.82 1.12.82 2.26v3.34c0 .32.22.7.82.58A12 12 0 0 0 12 .3z"/></svg>
+        <div><span>GitHub</span><p>/sejaalkalekar</p></div>
+      </a>
+      <div class="contact-card contact-card--static reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <div><span>Location</span><p>Nashik, Maharashtra, India</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__layout">
+    <div class="footer__stack" aria-hidden="true">
+      <span>AWS</span><span>Linux</span><span>Docker</span><span>Terraform</span><span>kubernetes</span><span>GitHub</span><span>CI/CD</span>
+    </div>
+    <p class="footer__note">Built by Sejal Kalekar · <span id="year"></span></p>
+    <div class="footer__visits">
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=sejaalkalekar.portfolio&left_color=141416&right_color=F97316" alt="Visitor count" loading="lazy">
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
