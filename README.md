@@ -49,10 +49,8 @@ Launch
 Simply open index.html in your browser.
 
 <h2>🤝 Connect With Me</h2>
-## 🤝 Connect With Me
-
 <p>
-  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="20" height="20" align="center" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" width="20" height="20">
   <strong> LinkedIn:</strong>
   <a href="https://www.linkedin.com/in/sejaalkalekar/">
     https://www.linkedin.com/in/sejaalkalekar/
