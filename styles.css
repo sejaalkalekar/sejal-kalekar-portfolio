@@ -198,7 +198,7 @@ button{ font-family:inherit; }
 @keyframes spin{ to{ transform:rotate(360deg); } }
 .hero__photo-img{
   position:relative; width:100%;
-  margin-bottom: -25px;
+  /* margin-bottom: -25px; */
 }
 .hero__orbit{
   position:absolute; pointer-events:none;
