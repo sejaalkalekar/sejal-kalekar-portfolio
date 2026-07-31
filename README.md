@@ -8,10 +8,15 @@
 
 <p align="center"> <b>🚀 Building scalable cloud solutions through hands-on learning, real-world projects, and continuous improvement.</b> </p>
 
-<h3 align="center">🌐 Live Portfolio</h3>
-<a align="center" href="https://sejaalkalekar.github.io/sejal-kalekar-portfolio/" target="_blank" rel="noopener noreferrer"> 
+<div align="center">
+
+## 🌐 Live Portfolio
+
+<a href="https://sejaalkalekar.github.io/sejal-kalekar-portfolio/" target="_blank" rel="noopener noreferrer"> 
 🔗sejaalkalekar.github.io/sejal-kalekar-portfolio
 </a>
+
+</div>
 
 <h2>👋 About Me</h2>
 
