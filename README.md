@@ -11,7 +11,7 @@
 
 Hi, I'm Sejal Kalekar.
 
-I have 3+ years of professional experience in software development and am focused on building expertise in AWS Cloud, Linux, Docker, and DevOps through hands-on projects and continuous learning.
+The Linux & AWS Cloud Engineer who likes systems that stay up. My background is in React development, but hands-on work with EC2, IAM, VPC and S3 pulled me toward cloud infrastructure - provisioning it, securing it, and automating the boring parts so it doesn't need me at 2am. I spend most days in a terminal, and I'm currently deepening my AWS and DevOps skills toward the Solutions Architect certification.
 
 This portfolio showcases my technical skills, cloud projects, certifications, and professional journey.
 
