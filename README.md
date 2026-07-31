@@ -50,34 +50,42 @@ Simply open index.html in your browser.
 
 <h2>🤝 Connect With Me</h2>
 <p>
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" width="20" height="20">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" width="20" height="20" />
   <strong> LinkedIn:</strong>
-  <a href="https://www.linkedin.com/in/sejaalkalekar/">
-    https://www.linkedin.com/in/sejaalkalekar/
+  <a href="https://www.linkedin.com/in/sejaalkalekar/" target="_blank" rel="noopener noreferrer">
+    Connect with me on LinkedIn
   </a>
 </p>
 
 <p>
-  <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="20" height="20" align="center" />
+  <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="20" height="20" />
   <strong> GitHub:</strong>
-  <a href=" https://github.com/sejaalkalekar">
-    https://github.com/sejaalkalekar
+  <a href="https://github.com/sejaalkalekar" target="_blank" rel="noopener noreferrer">
+    Explore my open-source projects
   </a>
 </p>
 
 <p>
-  <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="20" height="20" align="center" />
+  <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="20" height="20" />
   <strong> Email:</strong>
   <a href="mailto:sejaalkalekar@gmail.com">
-    sejaalkalekar@gmail.com
+    Let's collaborate via email
   </a>
 </p>
 
 <p>
-  <img src="https://cdn.simpleicons.org/x" alt="X" width="20" height="20" align="center" />
+  <img src="https://cdn.simpleicons.org/x" alt="X" width="20" height="20" />
   <strong> X (Twitter):</strong>
-  <a href="https://x.com/sejaalkalekar">
-    https://x.com/sejaalkalekar
+  <a href="https://x.com/sejaalkalekar" target="_blank" rel="noopener noreferrer">
+    Follow my Cloud & DevOps journey
+  </a>
+</p>
+
+<p>
+  <img src="https://cdn.simpleicons.org/hashnode/2962FF" alt="Hashnode" width="20" height="20" />
+  <strong> Hashnode Blog:</strong>
+  <a href="https://hashnode.com/@sejaalkalekar" target="_blank" rel="noopener noreferrer">
+    Read my technical articles on Hashnode
   </a>
 </p>
 
