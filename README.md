@@ -1,4 +1,5 @@
-<h1><b></b>☁️ Sejal Kalekar | Portfolio | AWS Cloud Engineer</b></h1>
+<h1><b></b>☁️ Sejal Kalekar | AWS Cloud Engineer | Portfolio</b></h1>
+
 <p align="center"> <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws" /> <img src="https://img.shields.io/badge/Linux-Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/DevOps-Learning-blue?style=for-the-badge" /> </p>
 
 <p align="center"> <b>🚀 Building scalable cloud solutions through hands-on learning, real-world projects, and continuous improvement.</b> </p>
