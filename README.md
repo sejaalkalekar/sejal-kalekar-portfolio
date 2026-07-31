@@ -1,4 +1,4 @@
-<h1><b></b>☁️ Sejal Kalekar | AWS Cloud Engineer | Portfolio</b></h1>
+<h1 align="center"><b></b>☁️ Sejal Kalekar | AWS Cloud Engineer | Portfolio</b></h1>
 
 <a href="https://sejaalkalekar.github.io/sejal-kalekar-portfolio/">
 <img src="assets/portfolio-homepage.jpg">
@@ -9,7 +9,7 @@
 <p align="center"> <b>🚀 Building scalable cloud solutions through hands-on learning, real-world projects, and continuous improvement.</b> </p>
 
 <h3 align="center">🌐 Live Portfolio</h3>
-<a href="https://sejaalkalekar.github.io/sejal-kalekar-portfolio/" target="_blank" rel="noopener noreferrer"> 
+<a align="center" href="https://sejaalkalekar.github.io/sejal-kalekar-portfolio/" target="_blank" rel="noopener noreferrer"> 
 🔗sejaalkalekar.github.io/sejal-kalekar-portfolio
 </a>
 
